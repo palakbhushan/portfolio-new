@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palak Bhushan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">Palak Bhushan</div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <h1>Full-Stack Developer & AWS Specialist</h1>
+        <p>Creating scalable web applications and innovative solutions</p>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p id="about-content"></p>
+</section>
+
+<div class="divider"></div>
+
+<section id="experience">
+    <h2>Work Experience</h2>
+    <div class="scroll-container" id="experience-content"></div>
+</section>
+
+<div class="divider"></div>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="scroll-container" id="projects-content"></div>
+</section>
+
+<div class="divider"></div>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="scroll-container" id="certifications-content"></div>
+</section>
+
+<div class="divider"></div>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="scroll-container" id="achievements-content"></div>
+</section>
+
+<div class="divider"></div>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="scroll-container" id="skills-content"></div>
+</section>
+
+<div class="divider"></div>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Palak Bhushan. All rights reserved.</p>
+    <div class="social-icons">
+        <a href="mailto:palakbosw@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/palakbhushan" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/palakbhushan" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
